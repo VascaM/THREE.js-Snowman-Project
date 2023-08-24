@@ -53,7 +53,7 @@
             renderer.setClearColor(0x606060);
             
             //PLANE1
-            var planeTex1 = new THREE.TextureLoader().load('https://raw.githubusercontent.com/VascaM/final/master/A1.png');
+            var planeTex1 = new THREE.TextureLoader().load('https://raw.githubusercontent.com/VascaM//THREE.js-Snowman-Project/8e186e085e383fbfb70e258d6eca362bdd4a1c87/Assets/Background_Snow/Background1_Sky.png');
             var planeMat1 = new THREE.MeshBasicMaterial( { map: planeTex1 } );
             var geometry1 = new THREE.PlaneGeometry( 15, 5, 0 );
             plane1 = new THREE.Mesh( geometry1, planeMat1 );
@@ -62,7 +62,7 @@
             scene.add( plane1 );
             
             //PLANE2
-            var planeTex2 = new THREE.TextureLoader().load('https://raw.githubusercontent.com/VascaM/final/master/A2.png');
+            var planeTex2 = new THREE.TextureLoader().load('https://raw.githubusercontent.com/VascaM//THREE.js-Snowman-Project/8e186e085e383fbfb70e258d6eca362bdd4a1c87/Assets/Background_Snow/Background2_Rocks.png');
             var planeMat2 = new THREE.MeshBasicMaterial( { map: planeTex2,transparent: true } );
             var geometry2 = new THREE.PlaneGeometry( 15, 5, 0 );
             plane2 = new THREE.Mesh( geometry2, planeMat2 );
@@ -72,7 +72,7 @@
             scene.add( plane2 );
             
             //PLANE3
-            var planeTex3 = new THREE.TextureLoader().load('https://raw.githubusercontent.com/VascaM/final/master/A3.png');
+            var planeTex3 = new THREE.TextureLoader().load('https://raw.githubusercontent.com/VascaM//THREE.js-Snowman-Project/8e186e085e383fbfb70e258d6eca362bdd4a1c87/Assets/Background_Snow/Background3_Ground.png');
             var planeMat3 = new THREE.MeshBasicMaterial( { map: planeTex3,transparent: true } );
             var geometry3 = new THREE.PlaneGeometry( 15, 5, 0 );
             plane3 = new THREE.Mesh( geometry3, planeMat3 );
@@ -82,7 +82,7 @@
             scene.add( plane3 );
             
             //PLANE4
-            var planeTex4 = new THREE.TextureLoader().load('https://raw.githubusercontent.com/VascaM/final/master/A4.png');
+            var planeTex4 = new THREE.TextureLoader().load('https://raw.githubusercontent.com/VascaM//THREE.js-Snowman-Project/8e186e085e383fbfb70e258d6eca362bdd4a1c87/Assets/Background_Snow/Background4_Tree.png');
             var planeMat4 = new THREE.MeshBasicMaterial( { map: planeTex4,transparent: true } );
             var geometry4 = new THREE.PlaneGeometry( 4.5, 5, 0 );
             plane4 = new THREE.Mesh( geometry4, planeMat4 );
@@ -151,7 +151,7 @@
             
           //GTLF FILE
             var loader = new THREE.GLTFLoader();
-                loader.load( 'https://raw.githubusercontent.com/VascaM/ontwikkelstap7/master/snowmen/snowmen.gltf', function ( gltf ) {
+                loader.load( 'https://raw.githubusercontent.com/VascaM/THREE.js-Snowman-Project/main/Assets/3D_Snowman/snowmen.gltf', function ( gltf ) {
                       scene.add(gltf.scene);
                       mixer = new THREE.AnimationMixer(gltf.scene);
                       action = mixer.clipAction(gltf.animations[0]);
