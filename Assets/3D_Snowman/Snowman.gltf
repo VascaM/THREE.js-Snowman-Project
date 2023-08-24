@@ -1540,38 +1540,38 @@
     "buffers" : [
         {
             "byteLength" : 175464,
-            "uri" : "snowmen.bin"
+            "uri" : "snowman.bin"
         }
     ],
     "images" : [
         {
-            "name" : "Snowmen:file1",
-            "uri" : "Snowmen:file1.png"
+            "name" : "Snowman:file1",
+            "uri" : "Snowman:file1.png"
         },
         {
-            "name" : "Snowmen:file4",
-            "uri" : "Snowmen:file4.png"
+            "name" : "Snowman:file4",
+            "uri" : "Snowman:file4.png"
         },
         {
-            "name" : "Snowmen:file5",
-            "uri" : "Snowmen:file5.png"
+            "name" : "Snowman:file5",
+            "uri" : "Snowman:file5.png"
         },
         {
-            "name" : "Snowmen:file7",
-            "uri" : "Snowmen:file7.jpg"
+            "name" : "Snowman:file7",
+            "uri" : "Snowman:file7.jpg"
         },
         {
-            "name" : "Snowmen:file6",
-            "uri" : "Snowmen:file6.png"
+            "name" : "Snowman:file6",
+            "uri" : "Snowman:file6.png"
         },
         {
-            "name" : "Snowmen:file8",
-            "uri" : "Snowmen:file8.png"
+            "name" : "Snowman:file8",
+            "uri" : "Snowman:file8.png"
         }
     ],
     "materials" : [
         {
-            "name" : "Snowmen:Branche_Material",
+            "name" : "Snowman:Branche_Material",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
                     0.800000011920929,
@@ -1586,7 +1586,7 @@
             }
         },
         {
-            "name" : "Snowmen:Caillou_Material",
+            "name" : "Snowman:Caillou_Material",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
                     0.800000011920929,
@@ -1601,7 +1601,7 @@
             }
         },
         {
-            "name" : "Snowmen:Carotte_Material",
+            "name" : "Snowman:Carotte_Material",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
                     0.800000011920929,
@@ -1616,7 +1616,7 @@
             }
         },
         {
-            "name" : "Snowmen:Chapeau_Material",
+            "name" : "Snowman:Chapeau_Material",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
                     0.800000011920929,
@@ -1631,7 +1631,7 @@
             }
         },
         {
-            "name" : "Snowmen:ChapeauBandeau_Material",
+            "name" : "Snowman:ChapeauBandeau_Material",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
                     0.800000011920929,
@@ -1646,7 +1646,7 @@
             }
         },
         {
-            "name" : "Snowmen:Neige_Material",
+            "name" : "Snowman:Neige_Material",
             "pbrMetallicRoughness" : {
                 "baseColorFactor" : [
                     0.800000011920929,
@@ -1794,7 +1794,7 @@
         },
         {
             "mesh" : 0,
-            "name" : "Snowmen:BonhommeDeNeige",
+            "name" : "Snowman:BonhommeDeNeige",
             "rotation" : [
                 3.6637359812630166e-15,
                 0.0,
@@ -1819,7 +1819,7 @@
                 7,
                 9
             ],
-            "name" : "Armature_Snowmen:joint7",
+            "name" : "Armature_Snowman:joint7",
             "rotation" : [
                 -0.7071068286895752,
                 0.0,
@@ -1841,7 +1841,7 @@
             "children" : [
                 6
             ],
-            "name" : "Armature_Snowmen:joint1",
+            "name" : "Armature_Snowman:joint1",
             "rotation" : [
                 0.012624834664165974,
                 -0.015824511647224426,
@@ -1860,7 +1860,7 @@
             ]
         },
         {
-            "name" : "Armature_Snowmen:joint2",
+            "name" : "Armature_Snowman:joint2",
             "rotation" : [
                 -0.0012250057188794017,
                 -0.02742883190512657,
@@ -1882,7 +1882,7 @@
             "children" : [
                 8
             ],
-            "name" : "Armature_Snowmen:joint4",
+            "name" : "Armature_Snowman:joint4",
             "rotation" : [
                 -0.49443885684013367,
                 -0.8548149466514587,
@@ -1901,7 +1901,7 @@
             ]
         },
         {
-            "name" : "Armature_Snowmen:joint5",
+            "name" : "Armature_Snowman:joint5",
             "rotation" : [
                 -0.0014252921100705862,
                 0.08062338829040527,
@@ -1920,7 +1920,7 @@
             ]
         },
         {
-            "name" : "Armature_Snowmen:joint8",
+            "name" : "Armature_Snowman:joint8",
             "rotation" : [
                 0.6143540740013123,
                 0.7762981057167053,
